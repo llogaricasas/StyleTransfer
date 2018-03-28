@@ -1,4 +1,4 @@
-# WWDC 2018: Artistic Style Transfer with CoreML
+# WWDC 2018: Playground for Style Transfer with CoreML
 
 ![alt tag](https://github.com/llogaricasas/WWDC2018/blob/master/Images/Header.png)
 
