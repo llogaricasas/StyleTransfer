@@ -1,0 +1,364 @@
+{
+  "layer_shapes" : {
+    "ReLU_12" : {
+      "k" : 64,
+      "w" : 200,
+      "n" : 1,
+      "h" : 200
+    },
+    "deprocess_image_2_constant_in_scale" : {
+      "k" : 3,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "SpatialFullConvolution_63" : {
+      "k" : 32,
+      "w" : 360,
+      "n" : 1,
+      "h" : 360
+    },
+    "inputImage" : {
+      "k" : 3,
+      "w" : 720,
+      "n" : 1,
+      "h" : 720
+    },
+    "Sequential_23" : {
+      "k" : 64,
+      "w" : 192,
+      "n" : 1,
+      "h" : 192
+    },
+    "Sequential_25" : {
+      "k" : 64,
+      "w" : 192,
+      "n" : 1,
+      "h" : 192
+    },
+    "ReLU_18" : {
+      "k" : 64,
+      "w" : 198,
+      "n" : 1,
+      "h" : 198
+    },
+    "InstanceNormalization_11" : {
+      "k" : 64,
+      "w" : 200,
+      "n" : 1,
+      "h" : 200
+    },
+    "deprocess_image_2" : {
+      "k" : 3,
+      "w" : 720,
+      "n" : 1,
+      "h" : 720
+    },
+    "ReLU_28" : {
+      "k" : 64,
+      "w" : 194,
+      "n" : 1,
+      "h" : 194
+    },
+    "Sequential_43" : {
+      "k" : 64,
+      "w" : 184,
+      "n" : 1,
+      "h" : 184
+    },
+    "InstanceNormalization_47" : {
+      "k" : 64,
+      "w" : 186,
+      "n" : 1,
+      "h" : 186
+    },
+    "Sequential_45" : {
+      "k" : 64,
+      "w" : 184,
+      "n" : 1,
+      "h" : 184
+    },
+    "ReLU_38" : {
+      "k" : 64,
+      "w" : 190,
+      "n" : 1,
+      "h" : 190
+    },
+    "ReLU_6" : {
+      "k" : 16,
+      "w" : 800,
+      "n" : 1,
+      "h" : 800
+    },
+    "InstanceNormalization_5" : {
+      "k" : 16,
+      "w" : 800,
+      "n" : 1,
+      "h" : 800
+    },
+    "ReLU_48" : {
+      "k" : 64,
+      "w" : 186,
+      "n" : 1,
+      "h" : 186
+    },
+    "SpatialConvolution_7" : {
+      "k" : 32,
+      "w" : 400,
+      "n" : 1,
+      "h" : 400
+    },
+    "ReLU_70" : {
+      "k" : 16,
+      "w" : 720,
+      "n" : 1,
+      "h" : 720
+    },
+    "SpatialFullConvolution_67_output" : {
+      "k" : 16,
+      "w" : 722,
+      "n" : 1,
+      "h" : 722
+    },
+    "ReLU_58" : {
+      "k" : 64,
+      "w" : 182,
+      "n" : 1,
+      "h" : 182
+    },
+    "ReLU_66" : {
+      "k" : 32,
+      "w" : 360,
+      "n" : 1,
+      "h" : 360
+    },
+    "InstanceNormalization_8" : {
+      "k" : 32,
+      "w" : 400,
+      "n" : 1,
+      "h" : 400
+    },
+    "outputImage" : {
+      "k" : 3,
+      "w" : 720,
+      "n" : 1,
+      "h" : 720
+    },
+    "SpatialReflectionPadding_3" : {
+      "k" : 3,
+      "w" : 800,
+      "n" : 1,
+      "h" : 800
+    },
+    "InstanceNormalization_57" : {
+      "k" : 64,
+      "w" : 182,
+      "n" : 1,
+      "h" : 182
+    },
+    "Tanh_72" : {
+      "k" : 3,
+      "w" : 720,
+      "n" : 1,
+      "h" : 720
+    },
+    "SpatialZeroPadding_21" : {
+      "k" : 64,
+      "w" : 196,
+      "n" : 1,
+      "h" : 196
+    },
+    "deprocess_image_2_constant_in_bias" : {
+      "k" : 3,
+      "w" : 1,
+      "n" : 1,
+      "h" : 1
+    },
+    "InstanceNormalization_65" : {
+      "k" : 32,
+      "w" : 360,
+      "n" : 1,
+      "h" : 360
+    },
+    "SpatialZeroPadding_31" : {
+      "k" : 64,
+      "w" : 192,
+      "n" : 1,
+      "h" : 192
+    },
+    "SpatialZeroPadding_41" : {
+      "k" : 64,
+      "w" : 188,
+      "n" : 1,
+      "h" : 188
+    },
+    "InstanceNormalization_17" : {
+      "k" : 64,
+      "w" : 198,
+      "n" : 1,
+      "h" : 198
+    },
+    "Sequential_13" : {
+      "k" : 64,
+      "w" : 196,
+      "n" : 1,
+      "h" : 196
+    },
+    "SpatialZeroPadding_51" : {
+      "k" : 64,
+      "w" : 184,
+      "n" : 1,
+      "h" : 184
+    },
+    "Sequential_15" : {
+      "k" : 64,
+      "w" : 196,
+      "n" : 1,
+      "h" : 196
+    },
+    "SpatialFullConvolution_67" : {
+      "k" : 16,
+      "w" : 720,
+      "n" : 1,
+      "h" : 720
+    },
+    "SpatialZeroPadding_61" : {
+      "k" : 64,
+      "w" : 180,
+      "n" : 1,
+      "h" : 180
+    },
+    "Sequential_33" : {
+      "k" : 64,
+      "w" : 188,
+      "n" : 1,
+      "h" : 188
+    },
+    "Sequential_35" : {
+      "k" : 64,
+      "w" : 188,
+      "n" : 1,
+      "h" : 188
+    },
+    "SpatialConvolution_10" : {
+      "k" : 64,
+      "w" : 200,
+      "n" : 1,
+      "h" : 200
+    },
+    "Sequential_53" : {
+      "k" : 64,
+      "w" : 180,
+      "n" : 1,
+      "h" : 180
+    },
+    "Sequential_55" : {
+      "k" : 64,
+      "w" : 180,
+      "n" : 1,
+      "h" : 180
+    },
+    "SpatialConvolution_4" : {
+      "k" : 16,
+      "w" : 800,
+      "n" : 1,
+      "h" : 800
+    },
+    "InstanceNormalization_69" : {
+      "k" : 16,
+      "w" : 720,
+      "n" : 1,
+      "h" : 720
+    },
+    "InstanceNormalization_27" : {
+      "k" : 64,
+      "w" : 194,
+      "n" : 1,
+      "h" : 194
+    },
+    "ReLU_9" : {
+      "k" : 32,
+      "w" : 400,
+      "n" : 1,
+      "h" : 400
+    },
+    "SpatialConvolution_16" : {
+      "k" : 64,
+      "w" : 198,
+      "n" : 1,
+      "h" : 198
+    },
+    "SpatialFullConvolution_63_output" : {
+      "k" : 32,
+      "w" : 362,
+      "n" : 1,
+      "h" : 362
+    },
+    "SpatialConvolution_19" : {
+      "k" : 64,
+      "w" : 196,
+      "n" : 1,
+      "h" : 196
+    },
+    "SpatialConvolution_26" : {
+      "k" : 64,
+      "w" : 194,
+      "n" : 1,
+      "h" : 194
+    },
+    "SpatialConvolution_29" : {
+      "k" : 64,
+      "w" : 192,
+      "n" : 1,
+      "h" : 192
+    },
+    "SpatialConvolution_36" : {
+      "k" : 64,
+      "w" : 190,
+      "n" : 1,
+      "h" : 190
+    },
+    "SpatialConvolution_46" : {
+      "k" : 64,
+      "w" : 186,
+      "n" : 1,
+      "h" : 186
+    },
+    "SpatialConvolution_39" : {
+      "k" : 64,
+      "w" : 188,
+      "n" : 1,
+      "h" : 188
+    },
+    "deprocess_image_2_mul_out" : {
+      "k" : 3,
+      "w" : 720,
+      "n" : 1,
+      "h" : 720
+    },
+    "SpatialConvolution_49" : {
+      "k" : 64,
+      "w" : 184,
+      "n" : 1,
+      "h" : 184
+    },
+    "SpatialConvolution_56" : {
+      "k" : 64,
+      "w" : 182,
+      "n" : 1,
+      "h" : 182
+    },
+    "InstanceNormalization_37" : {
+      "k" : 64,
+      "w" : 190,
+      "n" : 1,
+      "h" : 190
+    },
+    "SpatialConvolution_59" : {
+      "k" : 64,
+      "w" : 180,
+      "n" : 1,
+      "h" : 180
+    }
+  }
+}
